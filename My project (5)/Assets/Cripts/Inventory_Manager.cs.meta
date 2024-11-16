@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5124c24524549064580e01de967aab4e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - InventoryPanel: {instanceID: 0}
+  - UIBG: {instanceID: 0}
+  - crossHair: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

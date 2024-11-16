@@ -1,0 +1,1371 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Games\Unity Hub\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Krit/My project (5)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64801
+Successfully changed project path to: C:/Users/Krit/My project (5)
+C:/Users/Krit/My project (5)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9792]  Target information:
+
+Player connection [9792]  * "[IP] 192.168.0.3 [Port] 0 [Flags] 2 [Guid] 2425736576 [EditorId] 2425736576 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-418MHTN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9792]  * "[IP] 26.140.21.4 [Port] 0 [Flags] 2 [Guid] 2425736576 [EditorId] 2425736576 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-418MHTN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9792] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 7.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path D:/Games/Unity Hub/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Krit/My project (5)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'D:/Games/Unity Hub/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Games/Unity Hub/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Games/Unity Hub/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Games/Unity Hub/2022.3.50f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Games/Unity Hub/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005028 seconds.
+- Loaded All Assemblies, in  0.344 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.243 seconds
+Domain Reload Profiling: 587ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.539 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.513 seconds
+Domain Reload Profiling: 1052ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (514ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (55.5 KB). Loaded Objects now: 3584.
+Memory consumption went from 128.5 MB to 128.5 MB.
+Total: 2.875100 ms (FindLiveObjects: 0.297700 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.387300 ms  DeleteObjects: 0.099600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 237917.980536 seconds.
+  path: Assets/Cripts/Axe.asset
+  artifactKey: Guid(5e8789c5498280d42adc6ce78e647f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cripts/Axe.asset using Guid(5e8789c5498280d42adc6ce78e647f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36dcdbadab99573c14a2b08e19f7c26b') in 0.010986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 9650.928876 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Mesh/Flashlight.fbx
+  artifactKey: Guid(c3165f284bb39594a8fd69598022a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Mesh/Flashlight.fbx using Guid(c3165f284bb39594a8fd69598022a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff4bb463931e329829558d09d1ce57a6') in 1.830953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003383 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Mesh/Materials/Material.006.mat
+  artifactKey: Guid(6ee4f75f8ea0f374d84ed1139067b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Mesh/Materials/Material.006.mat using Guid(6ee4f75f8ea0f374d84ed1139067b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2dfdaaad89e093a1ee2b0c9c8ae92cc0') in 0.098396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001505 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Prefab
+  artifactKey: Guid(7fad2da3691f99c4b8f4e0da6a65c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Prefab using Guid(7fad2da3691f99c4b8f4e0da6a65c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '10d740e961d2d61a2277e560fa7a0218') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006562 seconds.
+  path: Assets/Survival Kit Lite/Knife/Textures/Knife_diffuse.png
+  artifactKey: Guid(8b528acc97893dd42b128ceeb939e7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Textures/Knife_diffuse.png using Guid(8b528acc97893dd42b128ceeb939e7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cbb774a904ca3005b395bcc011723e54') in 0.023111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012028 seconds.
+  path: Assets/Survival Kit Lite/Apple/Mesh/Apple.fbx
+  artifactKey: Guid(f4d1fc1989563434685d32fe4b60ff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Apple/Mesh/Apple.fbx using Guid(f4d1fc1989563434685d32fe4b60ff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd3a3fc8673cd8a366baab4ec5c9c7ab4') in 0.017739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.003583 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Materials/Lighter_mat.mat
+  artifactKey: Guid(52cc2c2701cfe694cbb97f8800f646f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Materials/Lighter_mat.mat using Guid(52cc2c2701cfe694cbb97f8800f646f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a03aaa75fa689a2ab8bf629ea1822016') in 0.023274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.004583 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Textures/Flashlight_diffuse.png
+  artifactKey: Guid(85f8f6c467f5d0b40b1aab0cd6bbd4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Textures/Flashlight_diffuse.png using Guid(85f8f6c467f5d0b40b1aab0cd6bbd4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1531441bdc08f58fff839b235f004230') in 0.013832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018972 seconds.
+  path: Assets/Survival Kit Lite/Rope/Prefab/rope.prefab
+  artifactKey: Guid(8eba43708b96c6f4cb7b0e4ff3103f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Prefab/rope.prefab using Guid(8eba43708b96c6f4cb7b0e4ff3103f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06f46796abe0df10ab1483a2ba27ab3b') in 0.033735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.012428 seconds.
+  path: Assets/Survival Kit Lite/Knife/Textures/Knife_ao.png
+  artifactKey: Guid(a83fe19ef5e3bfc409030ecc3115e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Textures/Knife_ao.png using Guid(a83fe19ef5e3bfc409030ecc3115e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f3564533f248bd387592f98be7b2db2a') in 0.013704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008124 seconds.
+  path: Assets/Survival Kit Lite/Rope/Textures/Rope_diffuse.png
+  artifactKey: Guid(168f580001e1f5a46b7a6481e16d3b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Textures/Rope_diffuse.png using Guid(168f580001e1f5a46b7a6481e16d3b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd98213729e2b3e7158512d2b219d8cbc') in 0.010928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002859 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Mesh/Materials/No Name.mat
+  artifactKey: Guid(d47dddb52a1ac2e43969eea685a1e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Mesh/Materials/No Name.mat using Guid(d47dddb52a1ac2e43969eea685a1e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22b4f4689cae1d701c24cd92d916b266') in 0.012028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021520 seconds.
+  path: Assets/Survival Kit Lite/Rope/Textures/Rope_specular.tga
+  artifactKey: Guid(553595e8e9d011b41996adb1e3507816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Textures/Rope_specular.tga using Guid(553595e8e9d011b41996adb1e3507816) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed8397c4fba3b6201efea2f4e2fd8715') in 0.011454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002311 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Materials
+  artifactKey: Guid(7eab009849e592e49a614d9bd0b80617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Materials using Guid(7eab009849e592e49a614d9bd0b80617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d75e2ab49c655531ee508ab143cd03b') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021470 seconds.
+  path: Assets/Fonts/README.txt
+  artifactKey: Guid(fd8f5ebbb5c94944892aa239f0a355f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/README.txt using Guid(fd8f5ebbb5c94944892aa239f0a355f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe624bf9fe6078d2f23710867e61008a') in 0.001074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015590 seconds.
+  path: Assets/Axe/Misc
+  artifactKey: Guid(360ed20422b34f54186c3965202ae3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Axe/Misc using Guid(360ed20422b34f54186c3965202ae3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b432c74105ea682edc6a6cb08db375c') in 0.000434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002153 seconds.
+  path: Assets/Survival Kit Lite/Knife/Mesh
+  artifactKey: Guid(8d5aabd7cc0345848a180f32648d5017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Mesh using Guid(8d5aabd7cc0345848a180f32648d5017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43bf41bb7b5c10b0483bb16a1602adef') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010887 seconds.
+  path: Assets/Survival Kit Lite/Apple/Textures/Apple_Normal.png
+  artifactKey: Guid(22a50d34773f6e14883947891a2316e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Apple/Textures/Apple_Normal.png using Guid(22a50d34773f6e14883947891a2316e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a6f21482e82c4d07fc218fd87b7e0241') in 0.108966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002193 seconds.
+  path: Assets/Player_interface.unity
+  artifactKey: Guid(daf7e936b7b77ea4eb5c1fe1dba6eb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player_interface.unity using Guid(daf7e936b7b77ea4eb5c1fe1dba6eb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba9a5638728d1366155a46375e0b0fd0') in 0.000626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005323 seconds.
+  path: Assets/Survival Kit Lite/Knife/Mesh/Materials/No Name.mat
+  artifactKey: Guid(c0d8c8f3537a793439c668276e7cb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Mesh/Materials/No Name.mat using Guid(c0d8c8f3537a793439c668276e7cb070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e86af50f122d8ef93fa7b58e39b9d724') in 0.011418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005991 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Mesh/Materials/No Name.mat
+  artifactKey: Guid(79c93f7f9f265454d968214cd4933817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Mesh/Materials/No Name.mat using Guid(79c93f7f9f265454d968214cd4933817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '174d1a1f8136adc42666c69e3c961a1e') in 0.011262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003981 seconds.
+  path: Assets/Survival Kit Lite/Knife/Mesh/Knife.fbx
+  artifactKey: Guid(dd76dcce4a0323d458a7556ce2c7a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Mesh/Knife.fbx using Guid(dd76dcce4a0323d458a7556ce2c7a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '191f5212339b16f401168c5baae9046a') in 0.016231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.002669 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Materials
+  artifactKey: Guid(3dd6f1023c8f81b46953b493cf67bbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Materials using Guid(3dd6f1023c8f81b46953b493cf67bbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b4eb6661acc942f0ad6c303905fb355') in 0.000669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002232 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Mesh
+  artifactKey: Guid(96b50abbee8f466488f070afec02fdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Mesh using Guid(96b50abbee8f466488f070afec02fdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b68bb25501295eb599f1ec4f2000782a') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044669 seconds.
+  path: Assets/Survival Kit Lite/Rope/Textures/Rope_normal.png
+  artifactKey: Guid(9677e42797219d84a8a566a5425a2546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Textures/Rope_normal.png using Guid(9677e42797219d84a8a566a5425a2546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee8c828f7298c78ad3108b74d9d4ee95') in 0.011589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.047932 seconds.
+  path: Assets/Survival Kit Lite/Knife/Textures/Knife_specular.tga
+  artifactKey: Guid(30e70a0b34ad0c740b48c7ffafd300ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Textures/Knife_specular.tga using Guid(30e70a0b34ad0c740b48c7ffafd300ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd39f627b252bea9f0de179919b9e70f1') in 0.013285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002308 seconds.
+  path: Assets/Survival Kit Lite/Apple/Mesh/Materials
+  artifactKey: Guid(b46e573adb1153d4398a463531133437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Apple/Mesh/Materials using Guid(b46e573adb1153d4398a463531133437) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3fd3c95573a95364ff9470dfb42ac7f0') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002536 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Materials/Flashlight_mat.mat
+  artifactKey: Guid(9f0b7ff2740157044968717607c1e903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Materials/Flashlight_mat.mat using Guid(9f0b7ff2740157044968717607c1e903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6293e78abc1eef9488bc22350606411f') in 0.027183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.044267 seconds.
+  path: Assets/Survival Kit Lite/Apple/Mesh/Materials/No Name.mat
+  artifactKey: Guid(76fb60a959f95d841ae6b070474f5bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Apple/Mesh/Materials/No Name.mat using Guid(76fb60a959f95d841ae6b070474f5bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fbef0326b1da731071cc444de12614ad') in 0.018088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006249 seconds.
+  path: Assets/Survival Kit Lite/Knife/Textures/Knife_normal.png
+  artifactKey: Guid(87dcef20397d06c4d8fb6fd4f0c9e528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Textures/Knife_normal.png using Guid(87dcef20397d06c4d8fb6fd4f0c9e528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb041b671112733988cb9f85c977a6ef') in 0.017871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011944 seconds.
+  path: Assets/Cripts/Item_scriptble_jbject.cs
+  artifactKey: Guid(620cc95ec54f81846ae02f83be06a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cripts/Item_scriptble_jbject.cs using Guid(620cc95ec54f81846ae02f83be06a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df6dfe31fafe3e130602b9dec29ccd3e') in 0.000646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001813 seconds.
+  path: Assets/Survival Kit Lite/Knife/Textures
+  artifactKey: Guid(1a818e4c325f23e43af99f44c4c18d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Textures using Guid(1a818e4c325f23e43af99f44c4c18d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16a903beaf569a4040237baa46651fee') in 0.000489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003528 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Mesh/Bottle.fbx
+  artifactKey: Guid(2d057ad9907906c42814a1f373a67dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Mesh/Bottle.fbx using Guid(2d057ad9907906c42814a1f373a67dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55b84c64ab73a441f750369691c1acad') in 0.014844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.022369 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Textures/Flashlight_ao.png
+  artifactKey: Guid(b07e3c7116372544f8312c334f5d714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Textures/Flashlight_ao.png using Guid(b07e3c7116372544f8312c334f5d714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47b75c4cf9daae73f7f540b8d6331e8e') in 0.010509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010336 seconds.
+  path: Assets/Survival Kit Lite/Rope/Materials
+  artifactKey: Guid(f59696f8dd2e2a34fb63cc89dd9b4de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Materials using Guid(f59696f8dd2e2a34fb63cc89dd9b4de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f69b77e4544adf10e729a6473a5926bd') in 0.000613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008879 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Textures/Lighter_diffuse.png
+  artifactKey: Guid(83005fc698b9a0d4c889eacafaf1cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Textures/Lighter_diffuse.png using Guid(83005fc698b9a0d4c889eacafaf1cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76e7963cd552404d2f1c62cd9ba3b230') in 0.010559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002233 seconds.
+  path: Assets/Axe/Prefab
+  artifactKey: Guid(d282877b7d06c9149a473804631275b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Axe/Prefab using Guid(d282877b7d06c9149a473804631275b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2fea8cb3c780d8485c823110235fb12a') in 0.000521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022910 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Textures/Signal_Rocket_normal.png
+  artifactKey: Guid(2ab6f32c53c95944aaf8233b14a0fdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Textures/Signal_Rocket_normal.png using Guid(2ab6f32c53c95944aaf8233b14a0fdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c1d643d98c40dfe494d1a62f7c298bc') in 0.017111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010642 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Prefabs/Flashlight.prefab
+  artifactKey: Guid(aeb0d59753e7e99418a1c7604f4808a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Prefabs/Flashlight.prefab using Guid(aeb0d59753e7e99418a1c7604f4808a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c091481a972e99c563f12655fa4f3034') in 0.221613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.003487 seconds.
+  path: Assets/Fonts/OFL.txt
+  artifactKey: Guid(0fe022a098eef5a4881176fdad904efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/OFL.txt using Guid(0fe022a098eef5a4881176fdad904efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83558eaf794b7c5beee5ce3ae1777fa7') in 0.001046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013349 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Mesh/Materials
+  artifactKey: Guid(8504e711806115c488fef865a001ebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Mesh/Materials using Guid(8504e711806115c488fef865a001ebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d3023bb3dc97842a9a9bdcaebf1d619') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011940 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Mesh/Materials/Material.004.mat
+  artifactKey: Guid(ddff24bd83bef394a90f9b39f43165ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Mesh/Materials/Material.004.mat using Guid(ddff24bd83bef394a90f9b39f43165ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd96f4bc07d239f4f85d7f12b3d0ef266') in 0.010986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002901 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Prefab/Lighter.prefab
+  artifactKey: Guid(ed2b54f035699d54ba22e379cc6e9cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Prefab/Lighter.prefab using Guid(ed2b54f035699d54ba22e379cc6e9cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2559ac63fd598d778b9242eb19df98a') in 0.013447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.004394 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Mesh/Signal_Rocket.fbx
+  artifactKey: Guid(4ab11b8acea8d55498f7b94c2e117e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Mesh/Signal_Rocket.fbx using Guid(4ab11b8acea8d55498f7b94c2e117e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a34aa8e0d8172cf68b7f6646c686ee1e') in 0.016347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.037294 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Textures
+  artifactKey: Guid(d868583ac0c8c3942aa91cc955cfad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Textures using Guid(d868583ac0c8c3942aa91cc955cfad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02579a52d2be64b01136c9bc3e8733f3') in 0.000464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014492 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Mesh/Materials
+  artifactKey: Guid(5b987b765e50b4142bb5ea20276a7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Mesh/Materials using Guid(5b987b765e50b4142bb5ea20276a7deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc058f71364f962f462ff9e0bce13a82') in 0.000551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009937 seconds.
+  path: Assets/Axe/Materials
+  artifactKey: Guid(93decad2df7d37349ab0e7bbe586bcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Axe/Materials using Guid(93decad2df7d37349ab0e7bbe586bcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c9558ff440592c77328ed07510f34db') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007520 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Textures/Bottle_diffuse.png
+  artifactKey: Guid(2203d5edc9aa41547ae296d647b12414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Textures/Bottle_diffuse.png using Guid(2203d5edc9aa41547ae296d647b12414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c4275cf2818e500bbc92d4c1fce90fe') in 0.013833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029823 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Prefabs
+  artifactKey: Guid(a9867b530319ff44294cb4ed146eacf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Prefabs using Guid(a9867b530319ff44294cb4ed146eacf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eee1eafccf6145bec5b743d8652f1def') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002742 seconds.
+  path: Assets/Axe/AxeExampleScene.unity
+  artifactKey: Guid(f45ae513e4c2d8a4db544fa91b0c6ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Axe/AxeExampleScene.unity using Guid(f45ae513e4c2d8a4db544fa91b0c6ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b796df4c1beb64465643e5d603dccc9f') in 0.000599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013900 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Textures/Flashlight_specular.tga
+  artifactKey: Guid(a6ef6ddb0f685034fb0ab47586b359cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Textures/Flashlight_specular.tga using Guid(a6ef6ddb0f685034fb0ab47586b359cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8285bde061f8f120cdf833830fc6e08') in 0.012284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006511 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket
+  artifactKey: Guid(a7e044c0eb0f00f4ba7c92aed5e861b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket using Guid(a7e044c0eb0f00f4ba7c92aed5e861b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '088c578dae1858163930022f6d394cf0') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002600 seconds.
+  path: Assets/Survival Kit Lite/Demo Scene/DemoSettings.lighting
+  artifactKey: Guid(7fa3a30e7de56734e982bf1ae3701330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Demo Scene/DemoSettings.lighting using Guid(7fa3a30e7de56734e982bf1ae3701330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '4f2a9bc9875cac5bfab039d2c1a97373') in 0.001241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002778 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Prefab/Bottle.prefab
+  artifactKey: Guid(9155a26ed8a2b04438c46f09e38c706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Prefab/Bottle.prefab using Guid(9155a26ed8a2b04438c46f09e38c706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba5c8a2633a806343ed1a840042dc717') in 0.017894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.002255 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Mesh/Materials
+  artifactKey: Guid(eebd58b539db4e54babc0a0b55fa095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Mesh/Materials using Guid(eebd58b539db4e54babc0a0b55fa095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e58611a7957e468828a80d74742e573a') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001852 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Textures
+  artifactKey: Guid(9607d3f08f9897b43addfcaab47227b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Textures using Guid(9607d3f08f9897b43addfcaab47227b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a55bbb0c4a4f824397570329de4defa') in 0.000463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001868 seconds.
+  path: Assets/Survival Kit Lite/Lighter
+  artifactKey: Guid(c84c89dc0a1bbed48a961bd55feef73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter using Guid(c84c89dc0a1bbed48a961bd55feef73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5dcbb575cad097e6d86d67bacc98b678') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008101 seconds.
+  path: Assets/Survival Kit Lite/Knife/Materials/Knife_mat.mat
+  artifactKey: Guid(571ca6080ac8b8942b2be3ce8204eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Materials/Knife_mat.mat using Guid(571ca6080ac8b8942b2be3ce8204eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8da41cafc82db54daf92c1f47836997') in 0.013349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.006006 seconds.
+  path: Assets/Survival Kit Lite/Knife
+  artifactKey: Guid(ba6d8c0ff0ce1e44fa10a86396760051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife using Guid(ba6d8c0ff0ce1e44fa10a86396760051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b10dd6a6ca7722c5028ba7f581ecaeb') in 0.000759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001956 seconds.
+  path: Assets/Survival Kit Lite/Icons
+  artifactKey: Guid(3705a57cfa6396246aeda3c9d50ac8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Icons using Guid(3705a57cfa6396246aeda3c9d50ac8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '721046238a5812626a3c263a2ee07cc9') in 0.000480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011129 seconds.
+  path: Assets/Survival Kit Lite/Demo Scene/Floor_mat.mat
+  artifactKey: Guid(bd84d762e72c5394bbf18726f3a1b081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Demo Scene/Floor_mat.mat using Guid(bd84d762e72c5394bbf18726f3a1b081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7977768e931801c261d1c038f6718a29') in 0.173764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003262 seconds.
+  path: Assets/Survival Kit Lite/Demo Scene/sky.mat
+  artifactKey: Guid(cc7010aabb3df63459fcdd261224f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Demo Scene/sky.mat using Guid(cc7010aabb3df63459fcdd261224f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f2f5f3c74a82872a3d7116e11abe92d') in 0.092241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004473 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Textures/bottle_normal.png
+  artifactKey: Guid(775d08fad1978e04dba9968daece389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Textures/bottle_normal.png using Guid(775d08fad1978e04dba9968daece389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22f0a2e57566f3ac3a58540223694ca3') in 0.011459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007432 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Textures/Bottle_specular.tga
+  artifactKey: Guid(f5129d3e9b3213649908a70483f195a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Textures/Bottle_specular.tga using Guid(f5129d3e9b3213649908a70483f195a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4521ae1b38ed75be988eaecc619d679') in 0.010256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002431 seconds.
+  path: Assets/Survival Kit Lite/Rope/Textures
+  artifactKey: Guid(45750928358d00946b952d249849fc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Textures using Guid(45750928358d00946b952d249849fc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e068f27d99a16060a4da4ba5d0970a0d') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004779 seconds.
+  path: Assets/Survival Kit Lite/Knife/Prefab/Knife.prefab
+  artifactKey: Guid(7df8587eae91f654cb0590fbd224f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Prefab/Knife.prefab using Guid(7df8587eae91f654cb0590fbd224f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4346f7018f36bb3ee2ada944ce6ed032') in 0.015214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.003387 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Materials/Glass.mat
+  artifactKey: Guid(d52c7e33a536d02409ad84d44ae3bd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Materials/Glass.mat using Guid(d52c7e33a536d02409ad84d44ae3bd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f304134499d8c791566f32b2b0bc6d9d') in 0.011103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011080 seconds.
+  path: Assets/Axe
+  artifactKey: Guid(4e9c586eeb610cd4fb834070ae60db91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Axe using Guid(4e9c586eeb610cd4fb834070ae60db91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b04994034b31f92fc2de862fc0865c45') in 0.000434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001837 seconds.
+  path: Assets/Survival Kit Lite/Knife/Mesh/Materials
+  artifactKey: Guid(76e4806e92c93a4468a18c5a1565d2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Mesh/Materials using Guid(76e4806e92c93a4468a18c5a1565d2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c27b2b251c04c95e33756b675ae13b3') in 0.000521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002375 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Materials/Bottle_mat.mat
+  artifactKey: Guid(7859d1fae09ee6e4e9ce68df044a3801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Materials/Bottle_mat.mat using Guid(7859d1fae09ee6e4e9ce68df044a3801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '279ad0dfbf2757ace50b9f11b997ee0d') in 0.014013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.012308 seconds.
+  path: Assets/Survival Kit Lite/Rope/Mesh/rope.fbx
+  artifactKey: Guid(03ddaa830d784df43a0c4020603f3042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Mesh/rope.fbx using Guid(03ddaa830d784df43a0c4020603f3042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '215fdcf02b1a05603a0da657bdf1a5bd') in 0.017415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.002412 seconds.
+  path: Assets/Survival Kit Lite/Apple/Materials
+  artifactKey: Guid(90c343c5a5ff59e4cb8fe5d79b8d6d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Apple/Materials using Guid(90c343c5a5ff59e4cb8fe5d79b8d6d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92d15e5962088a0eee4e257f9e9d4536') in 0.000413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002697 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Prefab/Signal_Rocket.prefab
+  artifactKey: Guid(f294ba25a65cff047a2dd77b56e26b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Prefab/Signal_Rocket.prefab using Guid(f294ba25a65cff047a2dd77b56e26b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53426ea3ca7b49966311addcef365ddc') in 0.021237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.002245 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Mesh/Materials
+  artifactKey: Guid(95e2f8e3c0c22344d8e6dfbe1615f3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Mesh/Materials using Guid(95e2f8e3c0c22344d8e6dfbe1615f3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f59559c023e2e0d9fc45bbf08fa10b7') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001874 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Mesh
+  artifactKey: Guid(3d1bc066c27dc1843ad00ce118eb041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Mesh using Guid(3d1bc066c27dc1843ad00ce118eb041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46c1e30363034d56294f6024578628ea') in 0.000468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002266 seconds.
+  path: Assets/Survival Kit Lite/Apple/Prefab/Apple.prefab
+  artifactKey: Guid(bfec01bc3e4d0444dbe595b4f55c6730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Apple/Prefab/Apple.prefab using Guid(bfec01bc3e4d0444dbe595b4f55c6730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6ba589855187772ce0598794c31f5ef') in 0.014795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.015098 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Materials
+  artifactKey: Guid(b365532151701684d8c6a914e1d588cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Materials using Guid(b365532151701684d8c6a914e1d588cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '55fa878f6c21bbfc678c6780f279a0da') in 0.000673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009886 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Mesh
+  artifactKey: Guid(d5585c94a10c4ab49877880ca639d772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Mesh using Guid(d5585c94a10c4ab49877880ca639d772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f112812ed330b3a326d9fc4d1a36fa1') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005549 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Textures/Flashlight_normal.png
+  artifactKey: Guid(dc49d27bac4af8440b6bab18ffdd4075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Textures/Flashlight_normal.png using Guid(dc49d27bac4af8440b6bab18ffdd4075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '533f7084d07645cacafd38e81c09b7d6') in 0.011547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002436 seconds.
+  path: Assets/Survival Kit Lite/Knife/Materials
+  artifactKey: Guid(5975c9b54e76cf341a67b08262e81441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Materials using Guid(5975c9b54e76cf341a67b08262e81441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a8cff472209d221cd1b610cd7931e35') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004690 seconds.
+  path: Assets/Survival Kit Lite
+  artifactKey: Guid(2a56f6526a968e14590cf44872709df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite using Guid(2a56f6526a968e14590cf44872709df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '80dd3aa3518aaf2fca9a44e74b441114') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011744 seconds.
+  path: Assets/Survival Kit Lite/Baterry
+  artifactKey: Guid(8fe7395bef222e741b2d1c47e0fbe7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry using Guid(8fe7395bef222e741b2d1c47e0fbe7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c06356a92ab58237c9efa0b56acab3e9') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011288 seconds.
+  path: Assets/Survival Kit Lite/Demo Scene/Demo.unity
+  artifactKey: Guid(11fbc269da3b90e47a954bcc15737ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Demo Scene/Demo.unity using Guid(11fbc269da3b90e47a954bcc15737ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd04577fa67881895a208998c4ec10584') in 0.000481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007559 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Textures/Signal_Rocket_diffuse.png
+  artifactKey: Guid(55168c6b74634a245ae5b0b5388cbce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Textures/Signal_Rocket_diffuse.png using Guid(55168c6b74634a245ae5b0b5388cbce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1b449a3f0c2c594c2494894623aaa89') in 0.011616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003078 seconds.
+  path: Assets/Survival Kit Lite/Rope/Materials/No Name.mat
+  artifactKey: Guid(ef4cf1853717acf408dfb3287badf6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Materials/No Name.mat using Guid(ef4cf1853717acf408dfb3287badf6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0b2e48acad236cace0090f56dc17476') in 0.015127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.008739 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Materials
+  artifactKey: Guid(8855b26165367834a9a52f00b654309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Materials using Guid(8855b26165367834a9a52f00b654309b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'abeaa3548831610aae851bf4b6cf6dd7') in 0.000528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002274 seconds.
+  path: Assets/Survival Kit Lite/Apple/Mesh
+  artifactKey: Guid(b5e25537aa346644d9738281735f62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Apple/Mesh using Guid(b5e25537aa346644d9738281735f62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3adce4aae8694696bf563cc98bc8c1d5') in 0.000492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011323 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Mesh/Materials/No Name.mat
+  artifactKey: Guid(0ce7b1a5d8f2ba14da8692433be889e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Mesh/Materials/No Name.mat using Guid(0ce7b1a5d8f2ba14da8692433be889e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0b6be32b9d88610ac5cc3e7d2b0e58ad') in 0.011315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002527 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Mesh/Materials
+  artifactKey: Guid(7258978b7e4342a4191aa2659cd567b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Mesh/Materials using Guid(7258978b7e4342a4191aa2659cd567b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e684de36faa1b5f9465fbfa42dbc193') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004277 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Textures/Bottle_ao.png
+  artifactKey: Guid(343f9efa9b386ee49841ff3ae94cdd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Textures/Bottle_ao.png using Guid(343f9efa9b386ee49841ff3ae94cdd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25c55f2d5910994cc3d82c9d8ba4a09e') in 0.009463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015742 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Textures
+  artifactKey: Guid(0b3faf49c642c1b42923fd31b0c68ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Textures using Guid(0b3faf49c642c1b42923fd31b0c68ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4c7c69f902b1ad0fd2e68b5968f3a78a') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033431 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Prefabs
+  artifactKey: Guid(9d03053226ce8844ba2879b89001a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Prefabs using Guid(9d03053226ce8844ba2879b89001a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a88f553dc2d6e6db3f73417f81395e8b') in 0.000457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008022 seconds.
+  path: Assets/Survival Kit Lite/Rope/Textures/Rope_ao.png
+  artifactKey: Guid(f586ac1f091309d4fb220228b3ed6c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Textures/Rope_ao.png using Guid(f586ac1f091309d4fb220228b3ed6c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a824c5c3f11b254d3fc8dbf58ea89bfb') in 0.013158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012042 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Textures/Lighter_ao.png
+  artifactKey: Guid(6c2065b93e71040499ad840cf1527e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Textures/Lighter_ao.png using Guid(6c2065b93e71040499ad840cf1527e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c83aa8405439fe762da19c22c83d226b') in 0.010400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007503 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Textures/Signal_Rocket_specular.tga
+  artifactKey: Guid(650cb1104aabce64ba3a7ba8cb615e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Textures/Signal_Rocket_specular.tga using Guid(650cb1104aabce64ba3a7ba8cb615e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45fdbc022cc2667f904b45acada4b00a') in 0.010439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002698 seconds.
+  path: Assets/Survival Kit Lite/Rope/Prefab
+  artifactKey: Guid(477327158b6cc94438402be5e5905f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Prefab using Guid(477327158b6cc94438402be5e5905f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac6182d383e0c5372b56533dee99a0e5') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003137 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Mesh/Materials/Material.010.mat
+  artifactKey: Guid(c436fd272c5f3f1478e83ff3fee179f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Mesh/Materials/Material.010.mat using Guid(c436fd272c5f3f1478e83ff3fee179f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2fb86298468112481ca67c029f6a2110') in 0.010802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.020190 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Textures/Baterry_diffuse.png
+  artifactKey: Guid(4677a1f1e41ef20448ef6394115a3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Textures/Baterry_diffuse.png using Guid(4677a1f1e41ef20448ef6394115a3dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d6ddae5b2da3ce46fe50a4715c15e6f') in 0.012411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002466 seconds.
+  path: Assets/Axe/Textures
+  artifactKey: Guid(69616f4814c665942bb643dddb17a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Axe/Textures using Guid(69616f4814c665942bb643dddb17a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3a786a49dbefc710d628962caf62d7b') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017696 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Textures/Lighter_specular.tga
+  artifactKey: Guid(097a5641bc2fdae4bb90b67830aec6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Textures/Lighter_specular.tga using Guid(097a5641bc2fdae4bb90b67830aec6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '348c3db9e3026636e4945c7ee6e785a9') in 0.010952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002595 seconds.
+  path: Assets/Survival Kit Lite/Knife/Prefab
+  artifactKey: Guid(64a4b4ce0953a7b43b9d3f6dc8a1310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Knife/Prefab using Guid(64a4b4ce0953a7b43b9d3f6dc8a1310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2776ac8f36f494def795bb2e45b42bfa') in 0.000593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027327 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Mesh/Lighter.fbx
+  artifactKey: Guid(b33e082237c0a444084c396f041b3c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Mesh/Lighter.fbx using Guid(b33e082237c0a444084c396f041b3c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36b5bdcb32b0931d46178d8b9d8e4f38') in 0.017378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.003804 seconds.
+  path: Assets/Survival Kit Lite/Demo Scene/Floor.jpg
+  artifactKey: Guid(26a389b754c799149a5f39df0c850616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Demo Scene/Floor.jpg using Guid(26a389b754c799149a5f39df0c850616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed7d96456756541fb71dbead082a4633') in 0.011345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003234 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00fd805aec169ad6b160bdf0e90d630d') in 0.000705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002154 seconds.
+  path: Assets/Survival Kit Lite/Rope/Mesh
+  artifactKey: Guid(12d749f3d9c7773429f7b02fd5ed3a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope/Mesh using Guid(12d749f3d9c7773429f7b02fd5ed3a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd79ded96bce402837a4e388733d004e') in 0.000699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002153 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Prefab
+  artifactKey: Guid(74498eb41f344d2498b19faa9cdd0387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Prefab using Guid(74498eb41f344d2498b19faa9cdd0387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd527ddfbd31c96a173a5a44bc6454cd7') in 0.000494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003684 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Textures/Signal_Rocket_ao.png
+  artifactKey: Guid(a0aee4d803cc4c945a4ab90306cc8063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Textures/Signal_Rocket_ao.png using Guid(a0aee4d803cc4c945a4ab90306cc8063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '99e2094b1d84441d8b3ebc562792c35a') in 0.011174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006875 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Textures/Baterry_specular.tga
+  artifactKey: Guid(c1dbfa28ce6fb274a80a020b72c46c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Textures/Baterry_specular.tga using Guid(c1dbfa28ce6fb274a80a020b72c46c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb69845cb717349c9f4387360ab6fe39') in 0.012622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002462 seconds.
+  path: Assets/Survival Kit Lite/Flashlight
+  artifactKey: Guid(28087dd3ce562384c8e7cfe127a4c817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight using Guid(28087dd3ce562384c8e7cfe127a4c817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '943f0d6ca0e6b552c7cc5d2da04f3f2f') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006606 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Textures
+  artifactKey: Guid(4d36a6d92ee4efb49bac9bd19b048a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Textures using Guid(4d36a6d92ee4efb49bac9bd19b048a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab5baa0f15a24a3413b4533c63d95b01') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011182 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Materials
+  artifactKey: Guid(e7d2f1e36e1aca245a7224cc6d644e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Materials using Guid(e7d2f1e36e1aca245a7224cc6d644e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c49fca5c70af3f61ff74c7e245842ea') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004203 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Textures/Baterry_normal.png
+  artifactKey: Guid(7d10b9b4dfdcc6848a0f5e451038749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Textures/Baterry_normal.png using Guid(7d10b9b4dfdcc6848a0f5e451038749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecfcf15667752c76979b907f9cb8af68') in 0.013960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004029 seconds.
+  path: Assets/Survival Kit Lite/Flashlight/Textures/Thumbs.db
+  artifactKey: Guid(2f192f984d41d6444a4d952f2ad01d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Flashlight/Textures/Thumbs.db using Guid(2f192f984d41d6444a4d952f2ad01d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '182955175e0797c3a5fddaa3de75a9b2') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022848 seconds.
+  path: Assets/Survival Kit Lite/Demo Scene
+  artifactKey: Guid(0d3c5cd029c98604783fe4b66b543370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Demo Scene using Guid(0d3c5cd029c98604783fe4b66b543370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '598ea819e04f8402a90861cab32319bf') in 0.000496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002098 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Textures
+  artifactKey: Guid(c0fdc59ce6c593749a0eb3daf4d4e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Textures using Guid(c0fdc59ce6c593749a0eb3daf4d4e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38473da6639a0e63c8eb5fd6247579b7') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006520 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Mesh
+  artifactKey: Guid(aa9d2df30d6c4764c863d26ec427a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Mesh using Guid(aa9d2df30d6c4764c863d26ec427a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df608810db8d3be15e8dad6e8f87fa12') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001875 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle/Prefab
+  artifactKey: Guid(b5002e873ad71634884db7927f5c27d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle/Prefab using Guid(b5002e873ad71634884db7927f5c27d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee7e9c6b54b7c4acf2e0afa67b245763') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007196 seconds.
+  path: Assets/Survival Kit Lite/Lighter/Textures/Lighter_normal.png
+  artifactKey: Guid(a5594e6ae7caf6441a037be38035b43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Lighter/Textures/Lighter_normal.png using Guid(a5594e6ae7caf6441a037be38035b43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb391a229d8dc61ec9873dc824e2b6ad') in 0.012770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013836 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d35f9d1c375383246bb35743ac9444dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d35f9d1c375383246bb35743ac9444dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b25a43f6beea2fae9b313970ab405d0') in 0.005423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010320 seconds.
+  path: Assets/Survival Kit Lite/Baterry/Mesh
+  artifactKey: Guid(6674b0bb4e7cc8e4e82299bf50e3deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Baterry/Mesh using Guid(6674b0bb4e7cc8e4e82299bf50e3deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0335074fe4cf6bb267961a1fc0cca1f') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002000 seconds.
+  path: Assets/Survival Kit Lite/Rope
+  artifactKey: Guid(3d36b6fd97d90dd458e65c6429ab733d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Rope using Guid(3d36b6fd97d90dd458e65c6429ab733d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '939a780b92519978a851994c36052b92') in 0.000562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011686 seconds.
+  path: Assets/Survival Kit Lite/Water_Bottle
+  artifactKey: Guid(113f8d0d2dd5fc54c80eac7f53b9de44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Water_Bottle using Guid(113f8d0d2dd5fc54c80eac7f53b9de44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6033b13b5a98e48137ddd98c97b72906') in 0.000464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002963 seconds.
+  path: Assets/Survival Kit Lite/Signal_Rocket/Materials/Signal_Rocket_mat.mat
+  artifactKey: Guid(cca639fab66bc1b4b98b377c87320bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Signal_Rocket/Materials/Signal_Rocket_mat.mat using Guid(cca639fab66bc1b4b98b377c87320bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bdbe5b2b26ff282c77ea2aa5a2bd096') in 0.015241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.047580 seconds.
+  path: Assets/Survival Kit Lite/Apple/Textures
+  artifactKey: Guid(d5877af7f54fe1d488a3f237e23f3f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Kit Lite/Apple/Textures using Guid(d5877af7f54fe1d488a3f237e23f3f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '162d88a10662c5bad0927090c324fbc6') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
